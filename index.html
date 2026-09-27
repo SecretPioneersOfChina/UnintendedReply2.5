@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="GR0hh6CStHxCx0UdFEI2Tn">
+<head data-page-node-id="Na8tHG3kYKgIfopSKj6rMq">
+    <meta charset="utf-8" data-page-node-id="f4clSbykUsq4ZZRlFViLz1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" data-page-node-id="GgfSXRnGJzj6ZFqcy9hmNx">
+    <title>无心之举 - Unintended Reply</title>
+    <meta name="description" content="一款互动电影式聊天游戏。每条消息，都将改变命运。" data-page-node-id="XqepC5cNBeAKLLzlRszp22">
+    <meta name="theme-color" content="#0a0a0f" data-page-node-id="DcSBPuopldEVPlRWTQqG1t">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css?v=14" data-page-node-id="WwVtDAiLnIF5RJzBsje9Ya">
+
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json" data-page-node-id="yzrooxxuqLRMQ4kiLuMx5t">
+    <meta name="apple-mobile-web-app-capable" content="yes" data-page-node-id="J6IMejHE5fKzEFuIcvCi4g">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" data-page-node-id="iN2Hjtimwp3hVtwlwmmpNG">
+</head>
+<body data-page-node-id="hXdZLAwvqgKwR4AlVRzjcW">
+
+    <!-- ====== 启动画面 ====== -->
+    <div id="splash-screen" data-page-node-id="kQXKaLzvohU4bPc3nLCgjM">
+        <div class="splash-logo" data-page-node-id="8uP8VqZ2mnL5TlkCLuMFKh"><img src="img/logo.png" alt="Logo" class="splash-logo-img" data-page-node-id="vvtGC6yfP2LfJU8uPebgi2"></div>
+        <div class="splash-subtitle" data-page-node-id="819of0BMGZ4lWFEorHnIYg">Unintended Reply</div>
+        <div class="splash-loader" data-page-node-id="H1WZEpqT20QjHq8a28aBG7"></div>
+        <div style="margin-top:20px;font-size:0.8rem;color:var(--text-muted);" id="splash-text" data-page-node-id="nFsWjurPVbjti9crzdpFl2"></div>
+    </div>
+
+    <!-- ====== 主应用 ====== -->
+    <div id="app" data-page-node-id="gmbX0sn6ljUwhG7VSbaZjJ">
+
+        <!-- 顶部栏 -->
+        <div id="top-bar" data-page-node-id="gjIRRLESyHQpPwlCazYNub">
+            <span class="game-title" id="game-title" data-page-node-id="5Y7BLhzXqUlpQTqpM20F3d">无心之举</span>
+            <div class="top-bar-actions" data-page-node-id="CQuU9CA0XO5bzOSbONruCS">
+                <button class="top-btn" id="btn-save" title="保存" data-page-node-id="xyZTiX7A0p1XvmCNHC52am"><img src="img/save.png" alt="保存" class="top-btn-img" data-page-node-id="BXvtp4pxO1NSQpQBve64PP"></button>
+                <button class="top-btn" id="btn-settings" title="设置" data-page-node-id="ewf2BISW4OEW0fXklBrDWM"><img src="img/settings.png" alt="设置" class="top-btn-img" data-page-node-id="OJUB6PZzVVwrDGdtXybGpB"></button>
+                <button class="top-btn top-btn-quit" id="btn-quit" title="退出故事" style="display:none;">✕</button>
+            </div>
+        </div>
+
+        <!-- 聊天区域 -->
+        <div id="chat-container" data-page-node-id="FQUYAK1LXM4ZFkKttT3JYw">
+            <div id="messages" data-page-node-id="J7GywylU2iIyCIxbIg9zv1"></div>
+            <!-- 打字指示器 -->
+            <div id="typing-indicator" data-page-node-id="6hBIgrhNR7inMIxASyADzz">
+                <div class="typing-dots" data-page-node-id="8GGNLzWRau6mqCnyoELnO8">
+                    <span class="typing-dot" data-page-node-id="qHJpcm6b5sG5vJLwGdvUpT"></span>
+                    <span class="typing-dot" data-page-node-id="Wagv4icyUwTRNAq4AcDnrW"></span>
+                    <span class="typing-dot" data-page-node-id="b7gB4mHbyTtQDX2b31ObMB"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 选择区域 -->
+        <div id="choice-area" style="display:none;" data-page-node-id="ISSEpXozEhHsbGVqJCyGX4">
+            <div id="choices" data-page-node-id="uK3A22DBtVbNCzwr3Qtk0l"></div>
+        </div>
+
+    </div>
+
+    <!-- ====== 章节横幅 ====== -->
+    <div id="chapter-banner" data-page-node-id="ixEHtCgF9EDCqJaxOHToPV">
+        <div class="chapter-banner-content" data-page-node-id="Qjk4WwjGSlIgtkLAMRwDVa">
+            <div class="chapter-number" id="banner-chapter" data-page-node-id="vAZ6yh5aaI1eedAVSQsaej">第一章</div>
+            <div class="chapter-title" id="banner-title" data-page-node-id="AQYCl3oDuqH2o0WEQ1V3VU">陌生来信</div>
+            <div class="chapter-subtitle" id="banner-subtitle" data-page-node-id="QddbUeIBYibu1J2OfAQ4AL">一个消息，打破平静的夜</div>
+            <button class="chapter-continue" id="banner-continue" data-page-node-id="zBQsoA7BKfSrSvIHgxlvbc">继续</button>
+        </div>
+    </div>
+
+    <!-- ====== 结局画面 ====== -->
+    <div id="ending-screen" data-page-node-id="sDYh4Lp1kA6FKYUad3Y6QR">
+        <div class="ending-card" data-page-node-id="1Xp5eryVTfz1b2x6W6Iuo9">
+            <div class="ending-icon" data-page-node-id="YBaJB8cVClfY2Qg1baVpME">🌟</div>
+            <div class="ending-title" data-page-node-id="3iB6TZZCcgYftyEUgQv0b1">结局标题</div>
+            <div class="ending-type" data-page-node-id="7BQcz4oCoMJyRmxkQ9xFfv">完美结局</div>
+            <div class="ending-description" data-page-node-id="yV46Ms56BJcWge2bQGUtbF">结局描述</div>
+            <div class="ending-stats" data-page-node-id="b01mf4CFtVmrDtytN40urI">
+                <div class="stat-item" data-page-node-id="tBCGoGFrbaNkAgc1FZO4sO">
+                    <div class="stat-value" id="stat-choices" data-page-node-id="ZXRtFosGVHCAgbCLWifV94">0</div>
+                    <div class="stat-label" data-page-node-id="emnoXfDyhftS6m8jpKwtLv">选择</div>
+                </div>
+                <div class="stat-item" data-page-node-id="Z2ebA3kXZla41QJpsFlwBl">
+                    <div class="stat-value" id="stat-endings" data-page-node-id="EsUpOQmNmqLMgBNiy3rPiB">0</div>
+                    <div class="stat-label" data-page-node-id="2Ul4u0NduqntWGa5MlVQ1u">结局</div>
+                </div>
+            </div>
+            <div class="ending-actions" data-page-node-id="tGHnNVZnK1EowmeIFWYmql">
+                <button class="ending-btn" id="ending-replay" data-page-node-id="4t4LzGFRr3c5SAmlCCQhpj">重玩本章</button>
+                <button class="ending-btn" id="ending-menu" data-page-node-id="BVPhqQZEfKcxHux8GDE5El">返回主菜单</button>
+                <button class="ending-btn primary" id="ending-next" data-page-node-id="5PFIhrS7EnhUn3E55jlWT2">下一章</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== 设计器面板 ====== -->
+    <div id="designer-overlay" style="display:none;position:fixed;inset:0;z-index:1500;background:var(--bg-primary);" data-page-node-id="TKewN2BiGeBx4Ba5uDagWz">
+        <div id="designer-canvas" style="display:flex;flex-direction:column;height:100%;width:100%;" data-page-node-id="0xISNA1RxxarF8ICYlowOb"></div>
+    </div>
+
+    <!-- ====== 设置面板 ====== -->
+    <div id="settings-overlay" data-page-node-id="uuI8F7ocrDgOMHNlZGrJJw">
+        <div class="settings-panel" data-page-node-id="CiqiCtLNaVaPViT0XKIhCq">
+            <div class="settings-title" data-page-node-id="5DFZBG490wZ9cyRwvLGBe1">设置</div>
+            <div class="settings-section" data-page-node-id="j1QAQGYATp4HAI2A7Bt9Hq">
+                <div class="settings-label" data-page-node-id="NnNnsQ3P0bck2nSrTCiZm8">语言 / Language / 言語</div>
+                <div class="language-options" data-page-node-id="pRjg61a2tq6uTIw7QkheY6">
+                    <button class="lang-btn" data-lang="zh" data-page-node-id="eG2E1EzeG6yTVhf3fvlWUB">中文</button>
+                    <button class="lang-btn" data-lang="en" data-page-node-id="nBM4qsToDyT3zLJ5C7E1uv">English</button>
+                    <button class="lang-btn" data-lang="ja" data-page-node-id="aG78kW5NC0jIMwkSwryr19">日本語</button>
+                </div>
+            </div>
+            <div style="text-align:center;" data-page-node-id="oIDCWAHooUjfVNXutAWZ3W">
+                <button class="ending-btn primary" id="settings-close" style="width:100%;" data-page-node-id="PzFld2rJG85oCFAJS3QjEU">关闭</button>
+            </div>
+            <!-- 音量控制 -->
+            <div class="settings-section" style="margin-top:16px;" data-page-node-id="iCUZETEKlfbQ3cINqAWZ3O">
+                <div class="settings-label" id="music-settings-label" data-page-node-id="kG1RyTrUMmHgEXuFAksR14">🎵 音频设置</div>
+                <div style="margin-bottom:10px;" data-page-node-id="tMZWAu15cUhHBnK4cJfXjH">
+                    <label style="font-size:0.75rem;color:var(--text-secondary);display:flex;justify-content:space-between;" data-page-node-id="n8RhMntu5QVAsQwGLXHunk">
+                        <span id="bgm-volume-label" data-page-node-id="Alnz9eaAZ9NJ3qwQwQEoBg">背景音乐</span>
+                        <span id="bgm-volume-value" data-page-node-id="41Zf8VnF0DDHSfzvPwlHyK">50%</span>
+                    </label>
+                    <input type="range" id="bgm-volume-slider" min="0" max="100" value="50" style="width:100%;accent-color:var(--accent-purple);" data-page-node-id="G0ccKCf6aJFkJnnaJPWXg3">
+                </div>
+                <div style="margin-bottom:10px;" data-page-node-id="gZxTcUyuHuEiNWcGJUDxru">
+                    <label style="font-size:0.75rem;color:var(--text-secondary);display:flex;justify-content:space-between;" data-page-node-id="OORhGr1vl5e1FwCECPMTY5">
+                        <span id="sfx-volume-label" data-page-node-id="0RLGjQHSBYZFdVG2j3O9dD">音效</span>
+                        <span id="sfx-volume-value" data-page-node-id="rZoBNdvAhi9qadS8q5QqpG">80%</span>
+                    </label>
+                    <input type="range" id="sfx-volume-slider" min="0" max="100" value="80" style="width:100%;accent-color:var(--accent-cyan);" data-page-node-id="iyYMTNA0eOiCsrzZ7gF8CP">
+                </div>
+                <div style="display:flex;align-items:center;gap:8px;" data-page-node-id="BK0McaVYS2UXaIjnxX46TZ">
+                    <input type="checkbox" id="mute-checkbox" style="accent-color:var(--accent-red);" data-page-node-id="KdOK30Xm3rWpJX4Hru2CwI">
+                    <label for="mute-checkbox" style="font-size:0.75rem;color:var(--text-secondary);" id="mute-label" data-page-node-id="Cxk3CihO0errr0NDChNXkA">静音</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== Scripts ====== -->
+    <!-- 错误处理 - 若脚本加载失败，显示错误信息而不是卡在启动画面 -->
+    <script>
+        window.addEventListener('error', function(e) {
+            console.error('Script error:', e.message, 'at', e.filename, ':', e.lineno);
+            var splash = document.getElementById('splash-screen');
+            if (splash) {
+                var err = document.createElement('div');
+                err.style.cssText = 'color:#ff4d4f;margin-top:20px;font-size:14px;text-align:center;max-width:80%;line-height:1.6;';
+                err.textContent = '加载失败: ' + e.message + '\n(' + e.filename + ':' + e.lineno + ')';
+                splash.appendChild(err);
+            }
+        });
+        // 超时保护：若5秒后仍未初始化，提示用户
+        setTimeout(function() {
+            if (document.getElementById('splash-screen') && !document.getElementById('app').classList.contains('active')) {
+                var splash = document.getElementById('splash-screen');
+                var err = document.createElement('div');
+                err.style.cssText = 'color:#ff4d4f;margin-top:20px;font-size:14px;text-align:center;max-width:80%;';
+                err.textContent = '加载超时，请刷新页面或检查网络连接。';
+                splash.appendChild(err);
+            }
+        }, 5000);
+    </script>
+
+    <!-- 注意加载顺序：依赖关系为 i18n → save → storyCore → 故事文件 → story → game → designer -->
+    <script src="js/i18n.js?v=23"></script>
+    <script src="js/save.js?v=5"></script>
+    <script src="js/imgdb.js?v=1"></script>
+    <script src="js/audio.js?v=6"></script>
+    <script src="js/story/storyCore.js?v=5"></script>
+    <script src="js/story/storyUnintendedReply.js?v=5"></script>
+    <script src="js/story/storyDarkDetective.js?v=5"></script>
+    <script src="js/story/storyLastSurvivor.js?v=5"></script>
+    <script src="js/story/storyDetroit.js?v=5"></script>
+    <script src="js/story/storyMBTI.js?v=1"></script>
+    <script src="js/story/storyBlaze.js?v=5"></script>
+    <script src="js/story.js?v=7"></script>
+    <script src="js/game.js?v=22"></script>
+    <script src="js/designer.js?v=35"></script>
+    <script src="js/story2design.js?v=6"></script>
+    <script src="js/community.js?v=8"></script>
+
+</body>
+</html>
