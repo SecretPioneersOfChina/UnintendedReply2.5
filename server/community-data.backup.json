@@ -1,0 +1,1609 @@
+{
+ "stories": {
+  "s_muib5ltiyt0u": {
+   "id": "s_muib5ltiyt0u",
+   "author": "故事作者4503",
+   "avatar": "🙂",
+   "owner": "故事作者4503",
+   "design": {
+    "id": "blueprint_1790422191777",
+    "title": "111",
+    "version": 3,
+    "storyIcon": "✨",
+    "variables": {
+     "trust": {
+      "name": "信任度",
+      "default": 50
+     },
+     "courage": {
+      "name": "勇气",
+      "default": 50
+     }
+    },
+    "characters": {
+     "narrator": {
+      "name": "旁白",
+      "icon": "✦",
+      "color": "#8b5cf6"
+     },
+     "player": {
+      "name": "玩家"
+     }
+    },
+    "music": null,
+    "nodes": [
+     {
+      "id": "node_muib58rl_31",
+      "type": "event_start",
+      "x": 50,
+      "y": 200
+     },
+     {
+      "id": "node_muib58rl_33",
+      "type": "chapter_begin",
+      "x": 320,
+      "y": 200,
+      "data": {
+       "chapterTitle": ""
+      }
+     },
+     {
+      "id": "node_muib58rl_37",
+      "type": "dialogue",
+      "x": 600,
+      "y": 200,
+      "data": {
+       "text": ""
+      }
+     },
+     {
+      "id": "node_muib58rl_41",
+      "type": "end_game",
+      "x": 900,
+      "y": 200,
+      "data": {
+       "endingType": "good",
+       "endingTitle": "",
+       "endingDesc": "",
+       "rewardSeeds": 3
+      }
+     }
+    ],
+    "connections": [
+     {
+      "from": "node_muib58rl_31:out_exec",
+      "to": "node_muib58rl_33:in_exec"
+     },
+     {
+      "from": "node_muib58rl_33:out_exec",
+      "to": "node_muib58rl_37:in_exec"
+     },
+     {
+      "from": "node_muib58rl_37:out_exec",
+      "to": "node_muib58rl_41:in_exec"
+     }
+    ],
+    "startNode": "node_muib58rl_31"
+   },
+   "version": 1,
+   "createdAt": 1790422208694,
+   "updatedAt": 1790422275486,
+   "visibility": "public",
+   "password": "111",
+   "members": {},
+   "requests": [],
+   "allowEdit": [],
+   "comments": [
+    {
+     "id": "c_1790422266235x50z",
+     "nick": "故事作者4503",
+     "avatar": "🙂",
+     "text": "谁来帮我想一个故事？",
+     "ts": 1790422266235
+    }
+   ],
+   "chat": [],
+   "tips": [
+    {
+     "nick": "故事作者4503",
+     "avatar": "🙂",
+     "amount": 5,
+     "ts": 1790422223638
+    },
+    {
+     "nick": "故事作者4503",
+     "avatar": "🙂",
+     "amount": 5,
+     "ts": 1790422225436
+    },
+    {
+     "nick": "故事作者4503",
+     "avatar": "🙂",
+     "amount": 5,
+     "ts": 1790422226427
+    },
+    {
+     "nick": "故事作者4503",
+     "avatar": "🙂",
+     "amount": 5,
+     "ts": 1790422227115
+    },
+    {
+     "nick": "Jason",
+     "avatar": "🤠",
+     "amount": 5,
+     "ts": 1790423886437,
+     "to": "故事作者4503"
+    },
+    {
+     "nick": "Jason",
+     "avatar": "🤠",
+     "amount": 1,
+     "ts": 1790425080713,
+     "to": "故事作者4503"
+    }
+   ],
+   "tipTotal": 26,
+   "editors": {},
+   "ownerUid": "",
+   "ownerNick": "",
+   "mode": "open",
+   "claimToken": "R66Y3P5X"
+  },
+  "s_muicahccg4u3": {
+   "id": "s_muicahccg4u3",
+   "author": "Jason",
+   "avatar": "🤠",
+   "owner": "Jason",
+   "design": {
+    "id": "blueprint_1790424103947",
+    "title": "222",
+    "version": 3,
+    "storyIcon": "✨",
+    "variables": {
+     "trust": {
+      "name": "信任度",
+      "default": 50
+     },
+     "courage": {
+      "name": "勇气",
+      "default": 50
+     }
+    },
+    "characters": {
+     "narrator": {
+      "name": "旁白",
+      "icon": "✦",
+      "color": "#8b5cf6"
+     },
+     "player": {
+      "name": "玩家"
+     }
+    },
+    "music": null,
+    "nodes": [
+     {
+      "id": "node_muica87f_1",
+      "type": "event_start",
+      "x": 50,
+      "y": 200
+     },
+     {
+      "id": "node_muica87f_3",
+      "type": "chapter_begin",
+      "x": 320,
+      "y": 200,
+      "data": {
+       "chapterTitle": ""
+      }
+     },
+     {
+      "id": "node_muica87f_7",
+      "type": "dialogue",
+      "x": 600,
+      "y": 200,
+      "data": {
+       "text": ""
+      }
+     },
+     {
+      "id": "node_muica87f_11",
+      "type": "end_game",
+      "x": 900,
+      "y": 200,
+      "data": {
+       "endingType": "good",
+       "endingTitle": "",
+       "endingDesc": "",
+       "rewardSeeds": 3
+      }
+     }
+    ],
+    "connections": [
+     {
+      "from": "node_muica87f_1:out_exec",
+      "to": "node_muica87f_3:in_exec"
+     },
+     {
+      "from": "node_muica87f_3:out_exec",
+      "to": "node_muica87f_7:in_exec"
+     },
+     {
+      "from": "node_muica87f_7:out_exec",
+      "to": "node_muica87f_11:in_exec"
+     }
+    ],
+    "startNode": "node_muica87f_1"
+   },
+   "version": 1,
+   "createdAt": 1790424115788,
+   "updatedAt": 1790424115788,
+   "visibility": "public",
+   "password": "",
+   "members": {},
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "m_1790426642480oc7x",
+     "nick": "Jason",
+     "avatar": "🎧",
+     "text": "111",
+     "ts": 1790426642480
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {},
+   "ownerUid": "u_muicsmubmiz2ud",
+   "ownerNick": "Jason",
+   "mode": "open",
+   "claimToken": "7Y45TJ96"
+  },
+  "s_muidwkp5vjli": {
+   "id": "s_muidwkp5vjli",
+   "author": "改名前muidwkm3",
+   "avatar": "🦊",
+   "owner": "改名前muidwkm3",
+   "ownerUid": "u1_muidwkm3",
+   "ownerNick": "改名前muidwkm3",
+   "design": {
+    "title": "路人也改",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 3,
+   "createdAt": 1790426826185,
+   "updatedAt": 1790426826226,
+   "mode": "open",
+   "visibility": "public",
+   "password": "pwmuidwkm3",
+   "members": {
+    "us_muidwkm3": {
+     "uid": "us_muidwkm3",
+     "nick": "陌人muidwkm3",
+     "role": "viewer",
+     "joinedAt": 1790426826207,
+     "avatar": "🎮"
+    },
+    "u2b_muidwkm3": {
+     "uid": "u2b_muidwkm3",
+     "nick": "路人muidwkm3",
+     "role": "editor",
+     "joinedAt": 1790426826222,
+     "avatar": ""
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790426826207",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "陌人muidwkm3 已加入团队",
+     "ts": 1790426826207
+    },
+    {
+     "id": "sys_1790426826222",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "路人muidwkm3 加入了团队",
+     "ts": 1790426826222
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {},
+   "lastAuthor": "匿名",
+   "claimToken": "5HEW5NVC"
+  },
+  "s_muidwkqcho8u": {
+   "id": "s_muidwkqcho8u",
+   "author": "匿名",
+   "avatar": "🐙",
+   "owner": "匿名",
+   "ownerUid": "",
+   "ownerNick": "匿名",
+   "design": {
+    "title": "旧昵称作品",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 1,
+   "createdAt": 1790426826228,
+   "updatedAt": 1790426826228,
+   "mode": "open",
+   "visibility": "public",
+   "password": "",
+   "members": {},
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [],
+   "tips": [
+    {
+     "uid": "粉丝muidwkm3",
+     "nick": "粉丝muidwkm3",
+     "avatar": "🤖",
+     "amount": 5,
+     "ts": 1790426826231,
+     "to": "匿名"
+    },
+    {
+     "uid": "粉丝muidwkm3",
+     "nick": "粉丝muidwkm3",
+     "avatar": "🤖",
+     "amount": 2,
+     "ts": 1790426826236,
+     "to": "匿名"
+    }
+   ],
+   "tipTotal": 7,
+   "editors": {},
+   "claimToken": "7GXBCUDZ"
+  },
+  "s_muie4dkssnsk": {
+   "id": "s_muie4dkssnsk",
+   "author": "改名前muie4dhn",
+   "avatar": "🦊",
+   "owner": "改名前muie4dhn",
+   "ownerUid": "u1_muie4dhn",
+   "ownerNick": "改名前muie4dhn",
+   "design": {
+    "title": "路人也改",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 3,
+   "createdAt": 1790427190205,
+   "updatedAt": 1790427190252,
+   "mode": "open",
+   "visibility": "public",
+   "password": "pwmuie4dhn",
+   "members": {
+    "us_muie4dhn": {
+     "uid": "us_muie4dhn",
+     "nick": "陌人muie4dhn",
+     "role": "viewer",
+     "joinedAt": 1790427190231,
+     "avatar": "🎮"
+    },
+    "u2b_muie4dhn": {
+     "uid": "u2b_muie4dhn",
+     "nick": "路人muie4dhn",
+     "role": "editor",
+     "joinedAt": 1790427190247,
+     "avatar": ""
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790427190231",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "陌人muie4dhn 已加入团队",
+     "ts": 1790427190231
+    },
+    {
+     "id": "sys_1790427190247",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "路人muie4dhn 加入了团队",
+     "ts": 1790427190247
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {},
+   "lastAuthor": "路人muie4dhn",
+   "claimToken": "7AZPWZ7X"
+  },
+  "s_muie4dm64y77": {
+   "id": "s_muie4dm64y77",
+   "author": "旧名muie4dhn",
+   "avatar": "🐙",
+   "owner": "旧名muie4dhn",
+   "ownerUid": "u2_muie4dhn",
+   "ownerNick": "旧名muie4dhn",
+   "design": {
+    "title": "旧昵称作品",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 1,
+   "createdAt": 1790427190254,
+   "updatedAt": 1790427190263,
+   "mode": "private",
+   "visibility": "team",
+   "password": "",
+   "members": {
+    "u_muj8c1nu40deq2": {
+     "uid": "u_muj8c1nu40deq2",
+     "nick": "Jason",
+     "role": "editor",
+     "joinedAt": 1790478155586,
+     "avatar": "🙂"
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790478155586",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "Jason 加入了团队",
+     "ts": 1790478155586
+    }
+   ],
+   "tips": [
+    {
+     "uid": "粉丝muie4dhn",
+     "nick": "粉丝muie4dhn",
+     "avatar": "🤖",
+     "amount": 5,
+     "ts": 1790427190258,
+     "to": "旧名muie4dhn"
+    },
+    {
+     "uid": "粉丝muie4dhn",
+     "nick": "粉丝muie4dhn",
+     "avatar": "🤖",
+     "amount": 2,
+     "ts": 1790427190264,
+     "to": "u2_muie4dhn"
+    }
+   ],
+   "tipTotal": 7,
+   "editors": {},
+   "claimToken": "J6Q7NBJJ"
+  },
+  "s_muiedj5pu9l3": {
+   "id": "s_muiedj5pu9l3",
+   "author": "改名前muiedj2k",
+   "avatar": "🦊",
+   "owner": "改名前muiedj2k",
+   "ownerUid": "u1_muiedj2k",
+   "ownerNick": "改名前muiedj2k",
+   "design": {
+    "title": "路人也改",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 3,
+   "createdAt": 1790427617341,
+   "updatedAt": 1790427617388,
+   "mode": "open",
+   "visibility": "public",
+   "password": "pwmuiedj2k",
+   "members": {
+    "us_muiedj2k": {
+     "uid": "us_muiedj2k",
+     "nick": "陌人muiedj2k",
+     "role": "viewer",
+     "joinedAt": 1790427617370,
+     "avatar": "🎮"
+    },
+    "u2b_muiedj2k": {
+     "uid": "u2b_muiedj2k",
+     "nick": "路人muiedj2k",
+     "role": "editor",
+     "joinedAt": 1790427617384,
+     "avatar": ""
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790427617370",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "陌人muiedj2k 已加入团队",
+     "ts": 1790427617370
+    },
+    {
+     "id": "sys_1790427617384",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "路人muiedj2k 加入了团队",
+     "ts": 1790427617384
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {},
+   "lastAuthor": "路人muiedj2k",
+   "claimToken": "FMB7E3AY"
+  },
+  "s_muiedj7167ji": {
+   "id": "s_muiedj7167ji",
+   "author": "旧名muiedj2k",
+   "avatar": "🐙",
+   "owner": "旧名muiedj2k",
+   "ownerUid": "u2_muiedj2k",
+   "ownerNick": "旧名muiedj2k",
+   "design": {
+    "title": "旧昵称作品",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 1,
+   "createdAt": 1790427617390,
+   "updatedAt": 1790427617399,
+   "mode": "private",
+   "visibility": "team",
+   "password": "",
+   "members": {
+    "u_muj8c1nu40deq2": {
+     "uid": "u_muj8c1nu40deq2",
+     "nick": "故事作者8032",
+     "role": "editor",
+     "joinedAt": 1790478105228,
+     "avatar": "🙂"
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790478105228",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "故事作者8032 加入了团队",
+     "ts": 1790478105228
+    }
+   ],
+   "tips": [
+    {
+     "uid": "粉丝muiedj2k",
+     "nick": "粉丝muiedj2k",
+     "avatar": "🤖",
+     "amount": 5,
+     "ts": 1790427617393,
+     "to": "旧名muiedj2k"
+    },
+    {
+     "uid": "粉丝muiedj2k",
+     "nick": "粉丝muiedj2k",
+     "avatar": "🤖",
+     "amount": 2,
+     "ts": 1790427617400,
+     "to": "u2_muiedj2k"
+    }
+   ],
+   "tipTotal": 7,
+   "editors": {},
+   "claimToken": "DCKTBVCD"
+  },
+  "s_muj8kng272ba": {
+   "id": "s_muj8kng272ba",
+   "author": "改名前muj8kncv",
+   "avatar": "🦊",
+   "owner": "改名前muj8kncv",
+   "ownerUid": "u1_muj8kncv",
+   "ownerNick": "改名前muj8kncv",
+   "design": {
+    "title": "路人也改",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 3,
+   "createdAt": 1790478337971,
+   "updatedAt": 1790478338026,
+   "mode": "open",
+   "visibility": "public",
+   "password": "pwmuj8kncv",
+   "members": {
+    "us_muj8kncv": {
+     "uid": "us_muj8kncv",
+     "nick": "陌人muj8kncv",
+     "role": "viewer",
+     "joinedAt": 1790478338008,
+     "avatar": "🎮"
+    },
+    "u2b_muj8kncv": {
+     "uid": "u2b_muj8kncv",
+     "nick": "路人muj8kncv",
+     "role": "editor",
+     "joinedAt": 1790478338022,
+     "avatar": ""
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790478338008",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "陌人muj8kncv 已加入团队",
+     "ts": 1790478338008
+    },
+    {
+     "id": "sys_1790478338022",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "路人muj8kncv 加入了团队",
+     "ts": 1790478338022
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {},
+   "claimToken": "R3TUY7VD",
+   "lastAuthor": "路人muj8kncv"
+  },
+  "s_muj8knhojfgl": {
+   "id": "s_muj8knhojfgl",
+   "author": "旧名muj8kncv",
+   "avatar": "🐙",
+   "owner": "旧名muj8kncv",
+   "ownerUid": "u2_muj8kncv",
+   "ownerNick": "旧名muj8kncv",
+   "design": {
+    "title": "旧昵称作品",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 1,
+   "createdAt": 1790478338028,
+   "updatedAt": 1790478338037,
+   "mode": "private",
+   "visibility": "team",
+   "password": "",
+   "members": {},
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [],
+   "tips": [
+    {
+     "uid": "粉丝muj8kncv",
+     "nick": "粉丝muj8kncv",
+     "avatar": "🤖",
+     "amount": 5,
+     "ts": 1790478338031,
+     "to": "旧名muj8kncv"
+    },
+    {
+     "uid": "粉丝muj8kncv",
+     "nick": "粉丝muj8kncv",
+     "avatar": "🤖",
+     "amount": 2,
+     "ts": 1790478338039,
+     "to": "u2_muj8kncv"
+    }
+   ],
+   "tipTotal": 7,
+   "editors": {},
+   "claimToken": "JYV8C2UQ"
+  },
+  "s_muj8krf54ku0": {
+   "id": "s_muj8krf54ku0",
+   "author": "改名前muj8krbv",
+   "avatar": "🦊",
+   "owner": "改名前muj8krbv",
+   "ownerUid": "u1_muj8krbv",
+   "ownerNick": "改名前muj8krbv",
+   "design": {
+    "title": "路人也改",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 3,
+   "createdAt": 1790478343121,
+   "updatedAt": 1790478343160,
+   "mode": "open",
+   "visibility": "public",
+   "password": "pwmuj8krbv",
+   "members": {
+    "us_muj8krbv": {
+     "uid": "us_muj8krbv",
+     "nick": "陌人muj8krbv",
+     "role": "viewer",
+     "joinedAt": 1790478343144,
+     "avatar": "🎮"
+    },
+    "u2b_muj8krbv": {
+     "uid": "u2b_muj8krbv",
+     "nick": "路人muj8krbv",
+     "role": "editor",
+     "joinedAt": 1790478343157,
+     "avatar": ""
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790478343144",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "陌人muj8krbv 已加入团队",
+     "ts": 1790478343144
+    },
+    {
+     "id": "sys_1790478343157",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "路人muj8krbv 加入了团队",
+     "ts": 1790478343157
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {},
+   "claimToken": "G8KZPTPD",
+   "lastAuthor": "路人muj8krbv"
+  },
+  "s_muj8krgagaqo": {
+   "id": "s_muj8krgagaqo",
+   "author": "旧名muj8krbv",
+   "avatar": "🐙",
+   "owner": "旧名muj8krbv",
+   "ownerUid": "u2_muj8krbv",
+   "ownerNick": "旧名muj8krbv",
+   "design": {
+    "title": "旧昵称作品",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 1,
+   "createdAt": 1790478343162,
+   "updatedAt": 1790478343170,
+   "mode": "private",
+   "visibility": "team",
+   "password": "",
+   "members": {},
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [],
+   "tips": [
+    {
+     "uid": "粉丝muj8krbv",
+     "nick": "粉丝muj8krbv",
+     "avatar": "🤖",
+     "amount": 5,
+     "ts": 1790478343165,
+     "to": "旧名muj8krbv"
+    },
+    {
+     "uid": "粉丝muj8krbv",
+     "nick": "粉丝muj8krbv",
+     "avatar": "🤖",
+     "amount": 2,
+     "ts": 1790478343172,
+     "to": "u2_muj8krbv"
+    }
+   ],
+   "tipTotal": 7,
+   "editors": {},
+   "claimToken": "HFX9XERK"
+  },
+  "s_muj8lu8cunsk": {
+   "id": "s_muj8lu8cunsk",
+   "author": "改名前muj8lu5b",
+   "avatar": "🦊",
+   "owner": "改名前muj8lu5b",
+   "ownerUid": "u1_muj8lu5b",
+   "ownerNick": "改名前muj8lu5b",
+   "design": {
+    "title": "路人也改",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 3,
+   "createdAt": 1790478393421,
+   "updatedAt": 1790478393466,
+   "mode": "open",
+   "visibility": "public",
+   "password": "pwmuj8lu5b",
+   "members": {
+    "us_muj8lu5b": {
+     "uid": "us_muj8lu5b",
+     "nick": "陌人muj8lu5b",
+     "role": "viewer",
+     "joinedAt": 1790478393448,
+     "avatar": "🎮"
+    },
+    "u2b_muj8lu5b": {
+     "uid": "u2b_muj8lu5b",
+     "nick": "路人muj8lu5b",
+     "role": "editor",
+     "joinedAt": 1790478393461,
+     "avatar": ""
+    }
+   },
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [
+    {
+     "id": "sys_1790478393448",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "陌人muj8lu5b 已加入团队",
+     "ts": 1790478393448
+    },
+    {
+     "id": "sys_1790478393461",
+     "nick": "系统",
+     "avatar": "🤖",
+     "text": "路人muj8lu5b 加入了团队",
+     "ts": 1790478393461
+    }
+   ],
+   "tips": [],
+   "tipTotal": 0,
+   "editors": {
+    "改名前muj8lu5b": 1790478393421,
+    "陌人muj8lu5b": 1790478393450,
+    "路人muj8lu5b": 1790478393466
+   },
+   "claimToken": "C2KFRURC",
+   "lastAuthor": "路人muj8lu5b"
+  },
+  "s_muj8lu9nh11e": {
+   "id": "s_muj8lu9nh11e",
+   "author": "旧名muj8lu5b",
+   "avatar": "🐙",
+   "owner": "旧名muj8lu5b",
+   "ownerUid": "u2_muj8lu5b",
+   "ownerNick": "旧名muj8lu5b",
+   "design": {
+    "title": "旧昵称作品",
+    "description": "identity test",
+    "storyIcon": "✨",
+    "nodes": [],
+    "connections": [],
+    "variables": {}
+   },
+   "version": 1,
+   "createdAt": 1790478393467,
+   "updatedAt": 1790478393477,
+   "mode": "private",
+   "visibility": "team",
+   "password": "",
+   "members": {},
+   "requests": [],
+   "allowEdit": [],
+   "comments": [],
+   "chat": [],
+   "tips": [
+    {
+     "uid": "粉丝muj8lu5b",
+     "nick": "粉丝muj8lu5b",
+     "avatar": "🤖",
+     "amount": 5,
+     "ts": 1790478393471,
+     "to": "旧名muj8lu5b"
+    },
+    {
+     "uid": "粉丝muj8lu5b",
+     "nick": "粉丝muj8lu5b",
+     "avatar": "🤖",
+     "amount": 2,
+     "ts": 1790478393479,
+     "to": "u2_muj8lu5b"
+    }
+   ],
+   "tipTotal": 7,
+   "editors": {
+    "旧名muj8lu5b": 1790478393467
+   },
+   "claimToken": "GEMX3WYG"
+  }
+ },
+ "users": {
+  "tip_author_muibt3u3": {
+   "nick": "tip_author_muibt3u3",
+   "avatar": "🦊",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "updatedAt": 1790423305263,
+   "uid": "",
+   "aliases": []
+  },
+  "tip_fan_muibt3u3": {
+   "nick": "tip_fan_muibt3u3",
+   "avatar": "🤖",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "updatedAt": 1790423305264,
+   "uid": "",
+   "aliases": []
+  },
+  "tip_author_muibtk9n": {
+   "nick": "tip_author_muibtk9n",
+   "avatar": "🦊",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "updatedAt": 1790423326555,
+   "uid": "",
+   "aliases": []
+  },
+  "tip_fan_muibtk9n": {
+   "nick": "tip_fan_muibtk9n",
+   "avatar": "🤖",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "updatedAt": 1790423326556,
+   "uid": "",
+   "aliases": []
+  },
+  "故事作者5918": {
+   "nick": "故事作者5918",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "updatedAt": 1790423345751,
+   "uid": "",
+   "aliases": []
+  },
+  "路人甲": {
+   "nick": "路人甲",
+   "avatar": "🙂",
+   "seeds": 0,
+   "received": 0,
+   "sent": 20,
+   "updatedAt": 1790427759327,
+   "uid": "路人甲",
+   "aliases": [
+    "路人甲"
+   ]
+  },
+  "故事作者4503": {
+   "nick": "故事作者4503",
+   "avatar": "🙂",
+   "seeds": 26,
+   "received": 6,
+   "sent": 0,
+   "updatedAt": 1790425080713,
+   "uid": "",
+   "aliases": []
+  },
+  "u_muicsmubmiz2ud": {
+   "nick": "Jason",
+   "avatar": "🎧",
+   "seeds": 14,
+   "received": 0,
+   "sent": 6,
+   "updatedAt": 1790430440951,
+   "uid": "u_muicsmubmiz2ud",
+   "aliases": [
+    "Jason"
+   ]
+  },
+  "u1_muidwkm3": {
+   "uid": "u1_muidwkm3",
+   "nick": "改名后muidwkm3",
+   "avatar": "🦊",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "改名前muidwkm3",
+    "改名后muidwkm3"
+   ],
+   "updatedAt": 1790426826193
+  },
+  "匿名": {
+   "uid": "匿名",
+   "nick": "匿名",
+   "avatar": "🐙",
+   "seeds": 27,
+   "received": 7,
+   "sent": 0,
+   "aliases": [
+    "匿名"
+   ],
+   "updatedAt": 1790426826236
+  },
+  "粉丝muidwkm3": {
+   "uid": "粉丝muidwkm3",
+   "nick": "粉丝muidwkm3",
+   "avatar": "🤖",
+   "seeds": 13,
+   "received": 0,
+   "sent": 7,
+   "aliases": [
+    "粉丝muidwkm3"
+   ],
+   "updatedAt": 1790426826236
+  },
+  "u2_muidwkm3": {
+   "uid": "u2_muidwkm3",
+   "nick": "新名muidwkm3",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muidwkm3",
+    "旧名muidwkm3"
+   ],
+   "updatedAt": 1790426826232
+  },
+  "u3_muidwkm3": {
+   "uid": "u3_muidwkm3",
+   "nick": "新名muidwkm3",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muidwkm3"
+   ],
+   "updatedAt": 1790426826238
+  },
+  "u_muidkionro1lct": {
+   "nick": "Jason",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "updatedAt": 1790428978157,
+   "uid": "u_muidkionro1lct",
+   "aliases": [
+    "Jason",
+    "jason"
+   ]
+  },
+  "u1_muie4dhn": {
+   "uid": "u1_muie4dhn",
+   "nick": "改名后muie4dhn",
+   "avatar": "🦊",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "改名前muie4dhn",
+    "改名后muie4dhn"
+   ],
+   "updatedAt": 1790427190215
+  },
+  "粉丝muie4dhn": {
+   "uid": "粉丝muie4dhn",
+   "nick": "粉丝muie4dhn",
+   "avatar": "🤖",
+   "seeds": 13,
+   "received": 0,
+   "sent": 7,
+   "aliases": [
+    "粉丝muie4dhn"
+   ],
+   "updatedAt": 1790427190264
+  },
+  "u2_muie4dhn": {
+   "uid": "u2_muie4dhn",
+   "nick": "新名muie4dhn",
+   "avatar": "🐙",
+   "seeds": 27,
+   "received": 7,
+   "sent": 0,
+   "aliases": [
+    "旧名muie4dhn",
+    "新名muie4dhn"
+   ],
+   "updatedAt": 1790427190264
+  },
+  "u3_muie4dhn": {
+   "uid": "u3_muie4dhn",
+   "nick": "新名muie4dhn",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muie4dhn"
+   ],
+   "updatedAt": 1790427190266
+  },
+  "tip_author_muie4qm7": {
+   "uid": "tip_author_muie4qm7",
+   "nick": "tip_author_muie4qm7",
+   "avatar": "🦊",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "aliases": [
+    "tip_author_muie4qm7"
+   ],
+   "updatedAt": 1790427207231
+  },
+  "tip_fan_muie4qm7": {
+   "uid": "tip_fan_muie4qm7",
+   "nick": "tip_fan_muie4qm7",
+   "avatar": "🤖",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "aliases": [
+    "tip_fan_muie4qm7"
+   ],
+   "updatedAt": 1790427207232
+  },
+  "u_muie51m8w42t1o": {
+   "uid": "u_muie51m8w42t1o",
+   "nick": "测试作者",
+   "avatar": "😎",
+   "seeds": 110,
+   "received": 30,
+   "sent": 0,
+   "aliases": [
+    "测试作者",
+    "故事作者6996",
+    "故事作者7427",
+    "故事作者6893",
+    "故事作者8514",
+    "故事作者8310",
+    "故事作者4882"
+   ],
+   "updatedAt": 1790478951879
+  },
+  "u1_muiedj2k": {
+   "uid": "u1_muiedj2k",
+   "nick": "改名后muiedj2k",
+   "avatar": "🦊",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "改名前muiedj2k",
+    "改名后muiedj2k"
+   ],
+   "updatedAt": 1790427617351
+  },
+  "粉丝muiedj2k": {
+   "uid": "粉丝muiedj2k",
+   "nick": "粉丝muiedj2k",
+   "avatar": "🤖",
+   "seeds": 13,
+   "received": 0,
+   "sent": 7,
+   "aliases": [
+    "粉丝muiedj2k"
+   ],
+   "updatedAt": 1790427617400
+  },
+  "u2_muiedj2k": {
+   "uid": "u2_muiedj2k",
+   "nick": "新名muiedj2k",
+   "avatar": "🐙",
+   "seeds": 27,
+   "received": 7,
+   "sent": 0,
+   "aliases": [
+    "旧名muiedj2k",
+    "新名muiedj2k"
+   ],
+   "updatedAt": 1790427617400
+  },
+  "u3_muiedj2k": {
+   "uid": "u3_muiedj2k",
+   "nick": "新名muiedj2k",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muiedj2k"
+   ],
+   "updatedAt": 1790427617401
+  },
+  "tip_author_muiedk4d": {
+   "uid": "tip_author_muiedk4d",
+   "nick": "tip_author_muiedk4d",
+   "avatar": "🦊",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "aliases": [
+    "tip_author_muiedk4d"
+   ],
+   "updatedAt": 1790427618725
+  },
+  "tip_fan_muiedk4d": {
+   "uid": "tip_fan_muiedk4d",
+   "nick": "tip_fan_muiedk4d",
+   "avatar": "🤖",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "aliases": [
+    "tip_fan_muiedk4d"
+   ],
+   "updatedAt": 1790427618726
+  },
+  "fan_muiemfy2": {
+   "uid": "fan_muiemfy2",
+   "nick": "fan_muiemfy2",
+   "avatar": "🙂",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "aliases": [
+    "fan_muiemfy2"
+   ],
+   "updatedAt": 1790428033160
+  },
+  "u_muj8c1nu40deq2": {
+   "uid": "u_muj8c1nu40deq2",
+   "nick": "Jason",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "故事作者8032",
+    "Jason"
+   ],
+   "updatedAt": 1790478393878
+  },
+  "u1_muj8kncv": {
+   "uid": "u1_muj8kncv",
+   "nick": "改名后muj8kncv",
+   "avatar": "🦊",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "改名前muj8kncv",
+    "改名后muj8kncv"
+   ],
+   "updatedAt": 1790478337987
+  },
+  "旧名muj8kncv": {
+   "uid": "旧名muj8kncv",
+   "nick": "旧名muj8kncv",
+   "avatar": "🐙",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "aliases": [
+    "旧名muj8kncv"
+   ],
+   "updatedAt": 1790478338032
+  },
+  "粉丝muj8kncv": {
+   "uid": "粉丝muj8kncv",
+   "nick": "粉丝muj8kncv",
+   "avatar": "🤖",
+   "seeds": 13,
+   "received": 0,
+   "sent": 7,
+   "aliases": [
+    "粉丝muj8kncv"
+   ],
+   "updatedAt": 1790478338039
+  },
+  "u2_muj8kncv": {
+   "uid": "u2_muj8kncv",
+   "nick": "新名muj8kncv",
+   "avatar": "",
+   "seeds": 22,
+   "received": 2,
+   "sent": 0,
+   "aliases": [
+    "新名muj8kncv"
+   ],
+   "updatedAt": 1790478338039
+  },
+  "u3_muj8kncv": {
+   "uid": "u3_muj8kncv",
+   "nick": "新名muj8kncv",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muj8kncv"
+   ],
+   "updatedAt": 1790478338040
+  },
+  "u1_muj8krbv": {
+   "uid": "u1_muj8krbv",
+   "nick": "改名后muj8krbv",
+   "avatar": "🦊",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "改名前muj8krbv",
+    "改名后muj8krbv"
+   ],
+   "updatedAt": 1790478343130
+  },
+  "旧名muj8krbv": {
+   "uid": "旧名muj8krbv",
+   "nick": "旧名muj8krbv",
+   "avatar": "🐙",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "aliases": [
+    "旧名muj8krbv"
+   ],
+   "updatedAt": 1790478343166
+  },
+  "粉丝muj8krbv": {
+   "uid": "粉丝muj8krbv",
+   "nick": "粉丝muj8krbv",
+   "avatar": "🤖",
+   "seeds": 13,
+   "received": 0,
+   "sent": 7,
+   "aliases": [
+    "粉丝muj8krbv"
+   ],
+   "updatedAt": 1790478343172
+  },
+  "u2_muj8krbv": {
+   "uid": "u2_muj8krbv",
+   "nick": "新名muj8krbv",
+   "avatar": "",
+   "seeds": 22,
+   "received": 2,
+   "sent": 0,
+   "aliases": [
+    "新名muj8krbv"
+   ],
+   "updatedAt": 1790478343172
+  },
+  "u3_muj8krbv": {
+   "uid": "u3_muj8krbv",
+   "nick": "新名muj8krbv",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muj8krbv"
+   ],
+   "updatedAt": 1790478343173
+  },
+  "u1_muj8lu5b": {
+   "uid": "u1_muj8lu5b",
+   "nick": "改名后muj8lu5b",
+   "avatar": "🦊",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "改名前muj8lu5b",
+    "改名后muj8lu5b"
+   ],
+   "updatedAt": 1790478393432
+  },
+  "粉丝muj8lu5b": {
+   "uid": "粉丝muj8lu5b",
+   "nick": "粉丝muj8lu5b",
+   "avatar": "🤖",
+   "seeds": 13,
+   "received": 0,
+   "sent": 7,
+   "aliases": [
+    "粉丝muj8lu5b"
+   ],
+   "updatedAt": 1790478393479
+  },
+  "u2_muj8lu5b": {
+   "uid": "u2_muj8lu5b",
+   "nick": "新名muj8lu5b",
+   "avatar": "🐙",
+   "seeds": 27,
+   "received": 7,
+   "sent": 0,
+   "aliases": [
+    "旧名muj8lu5b",
+    "新名muj8lu5b"
+   ],
+   "updatedAt": 1790478393479
+  },
+  "u3_muj8lu5b": {
+   "uid": "u3_muj8lu5b",
+   "nick": "新名muj8lu5b",
+   "avatar": "",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "新名muj8lu5b"
+   ],
+   "updatedAt": 1790478393480
+  },
+  "tip_author_muj8lugy": {
+   "uid": "tip_author_muj8lugy",
+   "nick": "tip_author_muj8lugy",
+   "avatar": "🦊",
+   "seeds": 25,
+   "received": 5,
+   "sent": 0,
+   "aliases": [
+    "tip_author_muj8lugy"
+   ],
+   "updatedAt": 1790478393885
+  },
+  "tip_fan_muj8lugy": {
+   "uid": "tip_fan_muj8lugy",
+   "nick": "tip_fan_muj8lugy",
+   "avatar": "🤖",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "aliases": [
+    "tip_fan_muj8lugy"
+   ],
+   "updatedAt": 1790478393886
+  },
+  "u_real_td2mr": {
+   "uid": "u_real_td2mr",
+   "nick": "真作者td2mr",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "旧作者td2mr",
+    "真作者td2mr"
+   ],
+   "updatedAt": 1790478518217
+  },
+  "旧作者2td2mr": {
+   "uid": "旧作者2td2mr",
+   "nick": "旧作者2td2mr",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "旧作者2td2mr"
+   ],
+   "updatedAt": 1790478518210
+  },
+  "旧作者546bt": {
+   "uid": "旧作者546bt",
+   "nick": "旧作者546bt",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "旧作者546bt"
+   ],
+   "updatedAt": 1790478602727
+  },
+  "旧作者2546bt": {
+   "uid": "旧作者2546bt",
+   "nick": "旧作者2546bt",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "旧作者2546bt"
+   ],
+   "updatedAt": 1790478602745
+  },
+  "u_real_546bt": {
+   "uid": "u_real_546bt",
+   "nick": "真作者546bt",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "真作者546bt"
+   ],
+   "updatedAt": 1790478602747
+  },
+  "旧作者234uwv": {
+   "uid": "旧作者234uwv",
+   "nick": "旧作者234uwv",
+   "avatar": "🙂",
+   "seeds": 20,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "旧作者234uwv"
+   ],
+   "updatedAt": 1790478615785
+  },
+  "u_real_34uwv": {
+   "uid": "u_real_34uwv",
+   "nick": "真作者34uwv",
+   "avatar": "🙂",
+   "seeds": 40,
+   "received": 0,
+   "sent": 0,
+   "aliases": [
+    "真作者34uwv",
+    "旧作者34uwv"
+   ],
+   "updatedAt": 1790478616804
+  },
+  "fan_muj8r5z1": {
+   "uid": "fan_muj8r5z1",
+   "nick": "fan_muj8r5z1",
+   "avatar": "🙂",
+   "seeds": 15,
+   "received": 0,
+   "sent": 5,
+   "aliases": [
+    "fan_muj8r5z1"
+   ],
+   "updatedAt": 1790478641976
+  }
+ }
+}
